@@ -1,5 +1,5 @@
-//#define MODO_CAPACITIVO
-#define MODO_RESISTIVO
+#define MODO_CAPACITIVO
+//#define MODO_RESISTIVO
 
 #if defined(MODO_CAPACITIVO) && defined(MODO_RESISTIVO)
 #error "Elija solo uno de los modos de operacion"
